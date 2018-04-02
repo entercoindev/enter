@@ -1,15 +1,15 @@
 [Unit]
-Description=Dash's distributed currency daemon
+Description=Enter's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=entercore
+Group=entercore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/enterd/enterd.pid
+ExecStart=/usr/bin/enterd -daemon -pid=/var/lib/enterd/enterd.pid \
+-conf=/etc/entercore/enter.conf -datadir=/var/lib/enterd -disablewallet
 
 Restart=always
 PrivateTmp=true

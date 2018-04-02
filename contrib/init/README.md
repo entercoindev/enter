@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.dash.dashd.plist
+SystemD: enterd.service
+Upstart: enterd.conf
+OpenRC:  enterd.openrc
+         enterd.openrcconf
+CentOS:  enterd.init
+OS X:    org.enter.enterd.plist
 
 have been made available to assist packagers in creating node packages here.
 

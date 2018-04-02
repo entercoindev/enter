@@ -1,3 +1,3 @@
-debian/manpages/dashd.1
-debian/manpages/dash.conf.5
-debian/manpages/dash-cli.1
+debian/manpages/enterd.1
+debian/manpages/enter.conf.5
+debian/manpages/enter-cli.1
